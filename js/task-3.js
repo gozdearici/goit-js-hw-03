@@ -3,7 +3,7 @@ function filterArray(numbers, value) {
 
     for(const number of numbers) {
         if(number > value) {
-            newNumbers.push(numbers);
+            newNumbers.push(number);
         }
     }
 
